@@ -5,6 +5,7 @@
 //program to find the factors of an integer
 
 // take input
+console.log());
 let num =24;
 
 
@@ -14,4 +15,14 @@ for(let i = 1; i <= num; i++) {
     if(num % i == 0) {
         console.log(i);
     }
+}
+
+// while loop
+console.log('while loop');
+let i=1;
+while(i<=num){
+    if(num%i==0){
+        console.log(i); 
+    }
+    i++;
 }
