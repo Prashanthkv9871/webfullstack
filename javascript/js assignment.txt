@@ -1,0 +1,13 @@
+JavaScript and jQuery, Angular Assignments?
+1. Write a program to check a number is divisible by 7 or not? 
+2. Write a program to check a number is multiple of 3 or not?
+3. Write a program to check a number is positive or not?
+4. Write a program to check a number is having 4 at unit's place or not?|
+5. Write a program to check a number is 3-digit numbers or not?
+6. Write a program to print even or odd for given number?
+7. Write a program to print the greatest number in given two numbers?
+8. Write a program to print the least number is given two numbers?
+9. Write a program to print the greatest number in given three numbers?
+10. Write a program to print the least number in given three numbers?
+11. Write a program to print the given 3 numbers in ascending orders?
+12. Write a program to print the given 3 numbers in descending orders?
