@@ -1,5 +1,7 @@
-var emp={
-    name:"prashanth"
+function emp(obj){
+
+return Object.keys(emp).lenghth===0;	
 }
 
-console.log(emp==={});
+let x=emp(10);
+console.log(x);
