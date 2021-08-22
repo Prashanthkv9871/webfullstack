@@ -5,7 +5,7 @@
 //program to find the factors of an integer
 
 // take input
-console.log());
+console.log();
 let num =24;
 
 

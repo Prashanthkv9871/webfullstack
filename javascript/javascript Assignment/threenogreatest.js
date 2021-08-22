@@ -1,6 +1,6 @@
 //9. Write a program to print the greatest number in given three numbers?
 
-let a = 5, b = 3, c = 10;
+let a = 5, b = 3, c = 1;
     if (a >= b && a >= c){
         console.log( a + " is the greatest number");
     }
