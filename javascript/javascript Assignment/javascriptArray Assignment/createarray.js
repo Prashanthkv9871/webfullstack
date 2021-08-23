@@ -1,10 +1,16 @@
 // 1. How to Create Array in JavaScript.
 
-var employee=["prashanth","kiran","vashir","Abhishek","vashir"];
+//JavaScript arrays are used to store multiple values in a single variable.
 
-emp=employee.length-1;
-console.log(emp);
+/*Creating an Array:
+Using an array literal is the easiest way to create a JavaScript Array.
 
-console.log(employee.lastIndexOf("vashir"));
+Syntax:
+var array_name = [item1, item2, ...]
 
+*/
+
+var employee=["prashanth","kiran","vashir","Abhishek",1,5,true];
+
+console.log(employee);
 
