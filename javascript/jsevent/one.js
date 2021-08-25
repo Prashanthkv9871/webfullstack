@@ -25,7 +25,7 @@ function focus_change(){
 }
 
 function change_upper(){
-    
-    document.getElementById("blur").style.color="black";
+    var x=document.getElementById("blur");
+    document.getElementById("blur").innerHTML="x.toUpperCase()";  
 }
 
