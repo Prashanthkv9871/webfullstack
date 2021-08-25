@@ -26,6 +26,6 @@ function focus_change(){
 
 function change_upper(){
     var x=document.getElementById("blur");
-    document.getElementById("blur").innerHTML="x.toUpperCase()";  
+    x.value=x.value.toUpperCase();  
 }
 
