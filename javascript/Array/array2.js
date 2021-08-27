@@ -12,7 +12,7 @@ let employee=
 
 for(emp in employee){
    // console.log(employee[emp].first_name);
-    if(employee[emp].first_name===Gretel);{
-    console.log(employee[emp].email);
+    if(employee[emp].id===3){
+    console.log(employee[emp]);
     }
 }
