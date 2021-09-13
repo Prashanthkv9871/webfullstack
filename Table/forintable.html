@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>map method to create table of Employee data</title>
+    <title>for in to create table of Employee data</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
@@ -23,7 +23,7 @@
 </body>
 <script>
 
-let employee=[{"id":1,"first_name":"Martainn","last_name":"Gavaran","email":"mgavaran0@google.fr","gender":"Genderqueer"},
+let employees=[{"id":1,"first_name":"Martainn","last_name":"Gavaran","email":"mgavaran0@google.fr","gender":"Genderqueer"},
 {"id":2,"first_name":"Francisca","last_name":"Harner","email":"fharner1@si.edu","gender":"Polygender"},
 {"id":3,"first_name":"Hershel","last_name":"Gohier","email":"hgohier2@princeton.edu","gender":"Polygender"},
 {"id":4,"first_name":"Xerxes","last_name":"Dicke","email":"xdicke3@naver.com","gender":"Bigender"},
@@ -36,12 +36,16 @@ let employee=[{"id":1,"first_name":"Martainn","last_name":"Gavaran","email":"mga
 
 let tdata=document.getElementById("tdata");
 
-let row=employee.map((emp)=>{return `<tr><td>${emp.id}</td>
-    <td>${emp.first_name}</td>
-    <td>${emp.last_name}</td>
-    <td>${emp.email}</td>
-    <td>${emp.gender}</td></tr>`});
-    
-tdata.innerHTML+=row;
+for(let emp in employees){ 
+    let row=`<tr><td>${employees[emp].id}</td>
+    <td>${employees[emp].first_name}</td>
+    <td>${employees[emp].last_name}</td>
+    <td>${employees[emp].email}</td>
+    <td>${employees[emp].gender}</td></tr>`
+    tdata.innerHTML+=row;
+    console.log(employees[emp]);
+}
+
+
 </script>
 </html>
