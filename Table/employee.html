@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee data</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <table class="table">
+        <thead class="bg-dark text-light">
+            <th>ID</th>
+            <th>first_Name</th>
+            <th>last_Name</th>
+            <th>Email</th>
+            <th>Gender</th>
+        </thead>
+
+        <tbody id="tdata"></tbody>
+    </table>
+    
+</body>
+<script>
+
+let employee=[{"id":1,"first_name":"Martainn","last_name":"Gavaran","email":"mgavaran0@google.fr","gender":"Genderqueer"},
+{"id":2,"first_name":"Francisca","last_name":"Harner","email":"fharner1@si.edu","gender":"Polygender"},
+{"id":3,"first_name":"Hershel","last_name":"Gohier","email":"hgohier2@princeton.edu","gender":"Polygender"},
+{"id":4,"first_name":"Xerxes","last_name":"Dicke","email":"xdicke3@naver.com","gender":"Bigender"},
+{"id":5,"first_name":"Crista","last_name":"Erskine","email":"cerskine4@elegantthemes.com","gender":"Female"},
+{"id":6,"first_name":"Rogerio","last_name":"Hemerijk","email":"rhemerijk5@dion.ne.jp","gender":"Female"},
+{"id":7,"first_name":"Meghan","last_name":"Cartner","email":"mcartner6@istockphoto.com","gender":"Non-binary"},
+{"id":8,"first_name":"Mari","last_name":"Ewenson","email":"mewenson7@chron.com","gender":"Agender"},
+{"id":9,"first_name":"Gaven","last_name":"Blaisdale","email":"gblaisdale8@vk.com","gender":"Non-binary"},
+{"id":10,"first_name":"Myrlene","last_name":"Seeking","email":"mseeking9@intel.com","gender":"Non-binary"}]
+
+let tdata=document.getElementById("tdata");
+
+let row=employee.map((emp)=>{return `<tr><td>${emp.id}</td>
+    <td>${emp.first_name}</td>
+    <td>${emp.last_name}</td>
+    <td>${emp.email}</td>
+    <td>${emp.gender}</td></tr>`});
+   
+
+tdata.innerHTML+=row;
+</script>
+</html>
