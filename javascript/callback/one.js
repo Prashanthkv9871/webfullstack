@@ -1,11 +1,10 @@
+var sum = () => {
+  console.log(10+12);
+}
 
-function greeting(name) {
-    alert('Hello ' + name);
-  }
-  
-  function processUserInput(callback) {
-    var name = prompt('Please enter your name.');
-    callback(name);
-  }
-  
-  processUserInput(greeting);
+var cal = (sum,abc) => {
+  abc(sum);
+}
+
+var result = cal(4, 5,sum);
+console.log(result);
