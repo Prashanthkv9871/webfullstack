@@ -19,6 +19,13 @@ public class SumOf10Num{
         }
         System.out.println("The Addition of First 10 Natural numbers by using while loop : "+ add);
 
-        // t
+        // do while loop
+        int k = 1;
+        int addition = 0;
+        do{
+            addition = addition + k;
+            k++;
+        }while(k<=10);
+        System.out.println("The Addition of First 10 Natural numbers by using do while loop : "+ addition);
     }
 }
