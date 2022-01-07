@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="533ae2c1-43b1-45cd-ac4d-a81b173e1c5e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Python/Database/Employee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/Database/MySQL Python/altertable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/Database/MySQL Python/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/Database/MySQL Python/createdatabse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/Database/MySQL Python/createtable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/Database/MySQL Python/deletedata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/Database/MySQL Python/displaydata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/Database/MySQL Python/drop1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/Database/MySQL Python/droptable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/Database/MySQL Python/insertmany.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/Database/MySQL Python/inserttable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/Database/MySQL Python/order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javascript/jsevent/one.js" beforeDir="false" afterPath="$PROJECT_DIR$/../javascript/jsevent/one.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-app" beforeDir="false" afterPath="$PROJECT_DIR$/../my-app" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="238NZhEqqPaKtNopAo1igWpYFfW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../React-Projects" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="533ae2c1-43b1-45cd-ac4d-a81b173e1c5e" name="Changes" comment="" />
+      <created>1641111819101</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641111819101</updated>
+    </task>
+    <servers />
+  </component>
+</project>

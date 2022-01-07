@@ -11,12 +11,12 @@ export class App extends Component {
     return (
       <div>
         <Router>      
-         <Navbar/>
-         <Switch>
-           <Route path='/cart' component={Cart}/>
-           <Route path="/contactapp" component={ContactApp} />
-           <Route path="/funcontact" component={Funcontactapp} />
-         </Switch>
+          <Navbar/>
+          <Switch>
+            <Route path='/cart' component={Cart}/>
+            <Route path="/contactapp" component={ContactApp} />
+            <Route path="/funcontact" component={Funcontactapp} />
+          </Switch>
         </Router>
       </div>
     )

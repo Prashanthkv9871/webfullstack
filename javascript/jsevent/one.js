@@ -1,7 +1,6 @@
 function mouseover_change(){
     document.getElementById("mouseover").style.backgroundColor="green";
     document.getElementById("mouseover").style.color="white";
-
 }
 
 function mouseout_change(){
